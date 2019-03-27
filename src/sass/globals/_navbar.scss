@@ -1,0 +1,97 @@
+@media (min-width: 768px) {
+    .navWrapper {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.headerWrapper {
+    padding: .4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .toggle-icon {
+        font-size: 1.7rem;
+        color: $mainYellow;
+        cursor: pointer;
+    }
+
+    @media (min-width: 768px) {
+        .toggle-icon {
+            display: none;
+        }
+    }
+}
+
+.linkWrapper {
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+
+    @media (min-width: 768px) {
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+
+        .nav-link:hover {
+            background-color: $mainWhite !important;
+            padding: 0.5rem 1rem 0.5rem 1rem !important;
+        }
+    }
+    
+    li {
+        list-style-type: none;
+    
+        .nav-link {
+            display: block;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            color: $mainGrey;
+            font-weight: 700;
+            text-transform: capitalize;
+            cursor: pointer;
+            transition: $transDefault;
+
+            &:hover {
+                background-color: $mainGrey;
+                color: $mainYellow;
+                padding: 0.5rem 1rem 0.5rem 1.3rem;
+            }
+        }
+    }
+
+    &.isOpen {
+        height: 160px;
+    }
+}
+
+.iconWrapper {
+    display: none;
+
+    .icon {
+        font-size: 1.3rem;
+        cursor: pointer;
+        transition: $transDefault;
+
+        &.facebook-icon {
+            color: #3b579d;
+        }
+        &.twitter-icon {
+            color: #3ab7f0;
+        }
+        &.instagram-icon {
+            color: #da5f53;
+        }
+
+        &:hover {
+            color: $mainYellow;
+        }
+    }
+
+    @media (min-width: 768px) {
+        display: flex;
+        width: 10rem;
+        justify-content: space-around;
+    }
+}
