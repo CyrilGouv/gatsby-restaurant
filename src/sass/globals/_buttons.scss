@@ -1,0 +1,31 @@
+.bannerBtn, .sectionBtn {
+    display: block;
+    color: $mainWhite;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    border: 0.15rem solid $mainWhite;
+    margin-bottom: 1rem;
+    transition: $transDefault;
+    margin: 2rem auto;
+
+    &:hover {
+        background-color: $mainWhite;
+        color: $mainBlack;
+    }
+}
+
+.sectionBtn {
+    color: $mainBlack;
+    border: 0.15rem solid $mainBlack;
+    margin: 2rem auto;
+
+    &:hover {
+        background-color: $mainBlack;
+        color: $mainYellow;
+    }
+}

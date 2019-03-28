@@ -1,0 +1,19 @@
+.banner {
+    margin-bottom: 3em;
+    text-align: center;
+
+    h1 {
+        color: $mainWhite;
+        font-size: 3rem;
+        text-transform: uppercase;
+        letter-spacing: 0.75rem;
+    }
+
+    h3 {
+        color: $mainWhite;
+        font-family: $textSlanted;
+        letter-spacing: 0.15rem;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+}

@@ -1,0 +1,18 @@
+.quickInfo {
+    text-align: center;
+
+    .text {
+        line-height: 2rem;
+        margin: 2rem auto;
+        color: $mainGrey;
+        word-spacing: .2rem;
+    }
+
+    @media (min-width: 768px) {
+        width: 70%;
+    }
+
+    @media (min-width: 992px) {
+        width: 60%;
+    }
+}

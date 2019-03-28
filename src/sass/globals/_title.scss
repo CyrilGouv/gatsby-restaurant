@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+
+    h3 {
+        font-family: $textSlanted;
+        letter-spacing: .3rem;
+        font-size: 2rem;
+        color: $mainYellow;
+    }
+
+    h2 {
+        letter-spacing: .3rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    .underline {
+        width: 5rem;
+        height: 0.2rem;
+        background-color: $mainYellow;
+        margin: 0.5rem auto;
+    }
+}

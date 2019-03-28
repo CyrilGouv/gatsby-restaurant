@@ -2,11 +2,15 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import PageHeader from '../components/Globals/PageHeader'
+import Banner from '../components/Globals/Banner'
 
 const AboutPage = () => (
-  <Layout>
+  <Layout className="about">
     <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
-    <h3>About Page</h3>
+    <PageHeader page="aboutPage">
+      <Banner title="About us" subtitle="a little about us" />
+    </PageHeader>
   </Layout>
 )
 

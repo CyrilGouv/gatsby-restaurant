@@ -1,0 +1,41 @@
+.footer {
+    padding: 2rem 0;
+    background-color: $mainBlack;
+
+    .icons {
+        width: 10rem;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        .icon {
+            color: $mainWhite;
+            font-size: 1.3rem;
+            transition: $transDefault;
+        }
+
+        :hover {
+            color: $mainYellow;
+        }
+    }
+
+    .copyright {
+        color: $mainWhite;
+        text-transform: capitalize;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .title {
+        width: 10rem;
+        text-align: center;
+        text-transform: capitalize;
+        color: $mainYellow;
+        text-transform: uppercase;
+        padding: 0.3rem;
+        margin: 0 auto 2rem auto;
+        font-size: 1.5rem;
+        border: .15rem solid $mainYellow;
+    }
+
+}

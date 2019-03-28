@@ -1,0 +1,29 @@
+.homeHeader {
+    min-height: calc(100vh - 50.78px);
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/bcg/homeBcg.jpeg') fixed center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageHeader {
+    min-height: 60vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.aboutPage {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/bcg/aboutBcg.jpeg') fixed center center no-repeat;
+        background-size: cover;
+    }
+    &.menuPage {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/bcg/menuBcg.jpeg') fixed center center no-repeat;
+        background-size: cover;
+    }
+    &.contactPage {
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../images/bcg/contactBcg.jpeg') fixed center center no-repeat;
+        background-size: cover;
+    }
+}
